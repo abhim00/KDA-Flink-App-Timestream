@@ -1,21 +1,5 @@
 # Publishing data with Amazon Kinesis to send data to Amazon Timestream
 
-A script to generate a continuous stream of records that are ingested into Timestream. You can refer to the [Amazon Timestream documentation on working with Apache Flink](https://docs.aws.amazon.com/timestream/latest/developerguide/ApacheFlink.html) for additional information. This script mimics a DevOps scenario where an application is emitting different types of events at a regular cadence. The script continuously generates data until the execution is interrupted with a SIGINT (or `CTRL + C`). 
-
---- 
-## Dependencies
-- Boto3
-- numpy (Tested with version 1.18.5)
-- Python3 (Tested with version 3.5.2)
-
-----
-## How to use it
-
-0. (Optional) You can work on a virtual environment
-```
-python3 -m venv venv
-. venv/bin/activate
-```
 
 1. Install and configure Boto3 set up following the instructions at https://boto3.amazonaws.com/v1/documentation/api/latest/index.html or executing the following command:
 	```
