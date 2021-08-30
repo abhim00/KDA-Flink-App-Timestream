@@ -1,5 +1,6 @@
 # Publishing data with Amazon Kinesis to send data to Amazon Timestream
 
+** This repo mainly serves as a POC for a very small part of the work I did at AWS as an intern this summer **
 
 1. Install and configure Boto3 set up following the instructions at https://boto3.amazonaws.com/v1/documentation/api/latest/index.html or executing the following command:
 	```
